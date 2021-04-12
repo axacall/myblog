@@ -4,12 +4,47 @@ body{
 	list-style-type:none;
 }
 /*
-.kapsayici{
-	margin: auto;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-}*/
+
+
+/*firefox için  scroll bar duzenleme kodu*/
+
+:root {
+    scrollbar-color: rgb(247, 18, 18) rgb(243, 140, 4, 0) !important;
+    scrollbar-width: thin !important;
+}
+
+/*firefox için  scroll bar duzenleme kodu*/
+
+/*chrome için scrollbar duzenleme kodu.*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px rgb(224, 109, 109); */
+    border-radius: 1px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 110, 255);
+    border-radius: 1px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #004eb3;
+}
+
+
+
+
+
 .headerKapsayici{
 	position: relative;
 	width: 100%;
